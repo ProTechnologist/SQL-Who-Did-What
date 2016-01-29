@@ -6,11 +6,11 @@ It is often a problem in the production environment when multiple SQL Users conn
 In order to find out, please do as follows:
 
 '''
-- Copy the script in SQL Server Management Studio
-- In the second line of script, add table name. (comments also points out which line it is)
-- Make sure that SQL Query Window is pointing to right database
-- Execute.
----
+1. Copy the script in SQL Server Management Studio
+2. In the second line of script, add table name. (comments also points out which line it is)
+3. Make sure that SQL Query Window is pointing to right database
+4. Execute.
+'''
 
 Notes:
 This script is absolutely harmless and does NOT create/update/delete/alter any table/row/trigger/login/function/Stored Procedure etc.
